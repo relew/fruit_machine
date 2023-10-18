@@ -96,7 +96,7 @@ class fruit_machine_class:
                 if config.MIN_BET <= amount <= config.MAX_BET:
                     break
                 else: 
-                    print("Bet amount must be more than "+str(config.MIN_BET-1)+" and less than " + str(MAX_BET +1) +".")
+                    print("Bet amount must be more than "+str(config.MIN_BET-1)+" and less than " + str(config.MAX_BET +1) +".")
             else:
                 print("Please add your bet amount.")
         return amount  
